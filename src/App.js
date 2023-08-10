@@ -1,23 +1,25 @@
+import GitHubActivity from './Components/GitHubActivity';
+import MostStarredRepos from './Components/MostStarredRepos';
 import logo from './logo.svg';
-import './App.css';
+import AdditionsChart from './Components/AdditionChart';
+import DeletionChart from './Components/DeletionChart';
+import CommitActivity from './Components/CommitActivity';
+import AllContributorCommits from './Components/AllContributorCommits';
+import AllContributorDelete from './Components/AllContributorDelete';
+import AllContributorAddition from './Components/AllContibutorAddition';
+// import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <GitHubActivity /> */}
+        <MostStarredRepos />
+        {/* <CommitActivity />
+        <AdditionsChart /> 
+        <DeletionChart /> */}
+        {/* <AllContributorCommits />
+        <AllContributorDelete />
+        <AllContributorAddition /> */}
     </div>
   );
 }
