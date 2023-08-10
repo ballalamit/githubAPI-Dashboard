@@ -169,7 +169,7 @@ function MostStarredRepos() {
                                     
                                  </div>
                                
-                               {/* <div >
+                               <div >
 
                             
                                <select name="dropdown" id="" onChange={(e) => handleSelectChange(e, repo.id)}>
@@ -179,22 +179,7 @@ function MostStarredRepos() {
                                 <option value="deletions">Deletions</option>
                                </select>
 
-                               </div> */}
-
-
-                               <FormControl sx={{ mb: 5, minWidth: 380 }}>
-                                <InputLabel id="demo-simple-select-helper-label">Select the Types</InputLabel>
-                                <Select
-                                    labelId="demo-simple-select-helper-label"
-                                    id="demo-simple-select-helper"
-                                    label="Select the Types"
-                                    onChange={(e) => handleSelectChange(e, repo.id)}
-                                >
-                                    <MenuItem value="commits" >Commits</MenuItem>
-                                    <MenuItem value="additions">Additions </MenuItem>
-                                    <MenuItem value="deletions">Deletions</MenuItem>
-                                </Select>
-                            </FormControl>
+                               </div>
                                
                             </Stack>
 
